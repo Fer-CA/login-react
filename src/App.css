@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  
+}
+body {
+  background-color: #D1F2EB ;
+}
+
+.container {
+  margin-top:5em;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 15px 15px 15px #9f8c862a;
+}
+
+
+i {
+  font-size: 2em;
+}
+
+.icon-container {
+  border: 1px solid black;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.icon-container:hover {
+  background-color: #D1F2EB;
+}
+
+.icon-container:hover i {
+color: #7D3C98;
+}
+
+.alert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
